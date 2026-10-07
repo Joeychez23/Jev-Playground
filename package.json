@@ -1,0 +1,8 @@
+{
+  "name": "jev-playground",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Web playground for TypeSafe's Jev model",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
