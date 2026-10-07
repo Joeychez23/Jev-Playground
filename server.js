@@ -6,7 +6,7 @@ const path = require("path");
 
 loadDotEnv(path.join(__dirname, ".env"));
 
-const PORT = Number(process.env.PORT) || 3000;
+const PORT = Number(process.env.PORT) || 8080;
 const API_KEY = process.env.TYPESAFE_API_KEY;
 const API_URL = "https://api.typesafe.ai/v1/systemone";
 const PUBLIC_DIR = path.join(__dirname, "public");
